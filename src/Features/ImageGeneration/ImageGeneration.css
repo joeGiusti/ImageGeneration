@@ -1,0 +1,50 @@
+.imageGenerationWindow{
+    padding: 20px;
+    width: 90%;
+    min-height: 90vh;
+    background-color: rgb(70, 74, 96);
+    margin-top: 2.5vh;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    color: white;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+.imageGenerationWindow textarea{
+    outline: none;
+    border: none;
+    background-color: rgb(86, 86, 86);
+    border-radius: 3px;
+    width: 90%;
+    height: 40px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.479);
+    color: white;
+}
+.imageGenerationWindow button{
+    color: white;
+    border: none;
+    outline: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 2px;
+    background-image: linear-gradient(gray, rgb(72, 72, 72));
+    box-shadow: 0 0 10px black;
+    margin: 10px;
+    cursor: pointer;
+    transition: 500ms;
+    font-size: 20px;
+}
+.imageGenerationWindow button:hover{
+    transform: scale(0.99);
+    box-shadow: 0 0 5px black;
+}
+
+.imageGenerationWindow img{
+    max-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+    object-fit: contain;
+}
